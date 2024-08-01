@@ -5,4 +5,4 @@ import logging.config
 class MenuCommand(Command):
     def execute(self):
         logging.info(f"Menu Request")
-        print(f'Menu: csv, data, greet, Add, Subtract, Multiply, Divide')
+        print(f'Menu: csv, data, greet, history, Add, Subtract, Multiply, Divide')
